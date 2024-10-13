@@ -1,26 +1,25 @@
 .dashboard-container {
     display: flex;
-    justify-content: space-between; /* กระจายองค์ประกอบใน container */
+    justify-content: space-between; 
     align-items: flex-start;
-    gap: 20px; /* เว้นระยะห่างระหว่างแต่ละองค์ประกอบ */
-    margin-top: 20px;
+    gap: 20px; 
   }
   
   /* ขนาดของตาราง */
   .dashboard-container table {
-    flex-basis: 20%; /* ตารางจะมีขนาดเท่ากับ 20% ของ container */
-    flex-shrink: 0; /* ไม่ให้ตารางหดลง */
+    flex-basis: 20%; 
+    flex-shrink: 0; 
   }
   
   /* ขนาดของกราฟ */
   .dashboard-container .chart-container {
-    flex-basis: 50%; /* กราฟจะมีขนาดเท่ากับ 50% ของ container */
+    flex-basis: 50%; 
     flex-grow: 1;
   }
   
   /* ขนาดของแผนที่ */
   .dashboard-container .map-container {
-    flex-basis: 30%; /* แผนที่จะมีขนาดเท่ากับ 30% ของ container */
+    flex-basis: 30%; 
     flex-grow: 1;
   }
   

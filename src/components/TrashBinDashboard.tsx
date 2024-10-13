@@ -3,7 +3,7 @@ import mockData from '../data/trashBinMockData';
 import TrashBinChart from './TrashBinChart';
 import TrashBinMap from './TrashBinMap';
 import TrashBinTable from './TrashBinTable';
-import './TrashBinDashboard.css'; // import ไฟล์ CSS
+import './TrashBinDashboard.css'; 
 
 export interface TrashBin {
   id: string;
